@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css">
+    <title>jewels&radiance</title>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+  </head>
+  <body style="background-image: url(../public/img/Group\ 12.png);">
+    <div id="app">
+      <div class="container">
+        <header>
+            <div class="first">
+                <div class="first__text">
+                    <p>г. Лениногорск, ул.Абвгдежзийк, д. 1, кв. 2</p>
+                    <p>+79687824989</p>
+                </div>
+                <a href="../main/index.html"><img class="first__logo" src="../public/img/image 35 (1).png" alt=""></a>
+                <img id="open-reg-modal" class="first__profile" src="../public/img/Vector.png" alt="">
+                <div id="reg-modal" class="modal">
+                 <div class="modal-content">
+                     <span  id="close" class="close">&times;</span>
+                       <h2 class="modal_avtor">Регистрация</h2>
+                     <form action="registration.php" method="post">
+                      
+                       <input class="input__form" type="text" placeholder="Логин:" name="login"> <br>
+                     <input class="input__form" type="text" placeholder="Почта:" name="email"><br>
+                     <input class="input__form" type="password" placeholder="Пароль:" name="pass"><br>
+                     <input class="input__form" type="password" placeholder="Подтверждение пароля:" name="doppass"><br>
+                     <button class="modal__batton" type="submit" id="signIn">Регистрация</button>
+                     </form>
+                   <button id="open-login-modal" class="open-login-modal">Уже есть аккаунт? Войдите</button>
+                 </div>
+               </div>
+               
+               <div id="login-modal" class="modal">
+                 <div class="modal-content">
+                     <span id="closeTwo" class="close">&times;</span>
+                     <h2 class="modal_avtor">Авторизация</h2>
+                     <form action="avtoriz.php" method="post">
+                       <input class="input__form" type="text" placeholder="Логин:" name="log"> <br>
+                     <input class="input__form" type="password" placeholder="Пароль:" name="password"><br>
+                     <div class="g-recaptcha" data-sitekey="6LfT-AAqAAAAAECnAA21eNvHla1PWAmli2lkw9YC"></div>
+                     <button class="modal__batton" id="signIn">Вход</button>
+                     </form>
+                   <button id="open-inReg-modal" class="open-inReg-modal">Нет аккаунта? Зарегестрируйтесь</button>
+                 </div>
+               </div>
+             </div>
+            <div class="two">
+                 <div class="two__href">
+                  <a class="two__href__link" href="../main/index.html">О мастерской</a>
+                    <a class="two__href__link" href="../katalog/index.html">Каталог</a>
+                    <a class="two__href__link" href="../garantii/index.html">Гарантии</a>
+                    <a class="two__href__link" href="../kakzakaz/index.html">Как заказать</a>
+                    <a class="two__href__link" href="../kontakti/index.html">Контакты</a>
+                 </div>
+                 <hr class="two__line">
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <div class="main">
+            <div class="main__text">
+                <h1 class="main__text__one">О МАСТЕРСКОЙ</h1>
+                <p class="main__text__two">Ювелирная мастерская "jewels&radiance" специализируется на изготовлении уникальных украшений ручной работы. Компания была основана в 2005 году двумя ювелирами-художниками – Анной и Павлом. 
+                    С самого начала своей деятельности мастерская выделялась своими оригинальными дизайнами, высоким качеством материалов и мастерством исполнения. "Придумать текст" стала популярным брендом среди ценителей уникальных украшений и коллекций для особых событий.
+                </p>
+            </div>
+                <img class="text" src="../public/img/snapedit_1717752843441 1.png" alt="">
+        </div>
+        <div class="container">
+            <div class="masters">
+                <h2 class="masters__text">МАСТЕРА</h2>
+                <div class="masters__card">
+                    <div class="masters__card__masres">
+                      <div class="img-container">
+                        <img src="../public/img/image 14 (1).png" alt="Main Image" class="masters__card__masres_img">
+                        <div class="popup" id="popup">
+                            <img src="../public/img/imgOkno/image 11.png" alt="Image 1">
+                            <img src="../public/img/imgOkno/image 55 (1).png" alt="Image 2">
+                            <img src="../public/img/imgOkno/image 55.png" alt="Image 3">
+                        </div>
+                    </div> 
+                        <p class="masters__card__masres__text">Андрей Разаренов - талантливый ювелирный мастер, чьи удивительные украшения завораживают своей красотой и изысканностью.</p>
+                    </div>
+                    <div class="masters__card__masres">
+                      <div class="img-container">
+                        <img class="masters__card__masres_img" src="../public/img/image 15 (2).png" alt="Main Image">
+                        <div class="popup" id="popup">
+                            <img c src="../public/img/imgOkno/Group 14.png" alt="Image 1">
+                            <img  src="../public/img/imgOkno/Group 15.png" alt="Image 2">
+                            <img  src="../public/img/imgOkno/Group 16.png" alt="Image 3">
+                        </div>
+                    </div>
+                        <p  class="masters__card__masres__text" >Юлия Кружалина - талантливый ювелирный мастер с большим опытом работы. Она создает уникальные украшения, которые непременно привлекут ваше внимание своей красотой и изысканностью.</p>
+                    </div>
+                    <div class="masters__card__masres">
+                      <div class="img-container">
+                        <img class="masters__card__masres_img" src="../public/img/image 16 (1).png" alt="Main Image">
+                        <div class="popup" id="popup">
+                            <img src="../public/img/imgOkno/image 57.png" alt="Image 1">
+                            <img src="../public/img/imgOkno/image 58.png" alt="Image 2">
+                            <img src="../public/img/imgOkno/image 59.png" alt="Image 3">
+                        </div>
+                    </div>
+                        <p  class="masters__card__masres__text">Михаил Запотроев - талантливый и опытный ювелирный мастер с большим стажем работы в этой области. Он является профессионалом своего дела и владеет различными техниками и методами изготовления украшений. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="foot">
+               <img class="foot__img" src="../public/img/Group 13.png" alt="">
+               <div class="foot__text">
+                <p class="foot__text__el">г. Лениногорск, ул.Абвгдежзийк, д. 1, кв. 2</p>
+                <p class="foot__text__el">Публичная оферта</p>
+                <p class="foot__text__el">+79687824989</p>
+               </div>
+               <div class="foot__icons">
+                    <a href="#"><img class="foot__icons__img" src="../public/img/WhatsApp.png" alt=""></a>
+                    <a href="#"><img class="foot__icons__img"  src="../public/img/Group 8.png" alt=""></a>
+                    <a href=""><img class="foot__icons__img"  src="../public/img/Telegram App.png" alt=""></a>
+               </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="../okno.js"></script>
+    <script type="module" src="../modalwindow.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>jewels&radiance</title>
+</head>
+<body class="body" style="background-image: url(../public/img/Group\ 12.png);">
+    <div class="container">
+        <header>
+            <div class="first">
+                <div class="first__text">
+                    <p>г. Лениногорск, ул.Абвгдежзийк, д. 1, кв. 2</p>
+                    <p>+79687824989</p>
+                </div>
+                <a href="../main/index.html"><img class="first__logo" src="../public/img/image 35 (1).png" alt=""></a>
+                <img id="open-reg-modal" class="first__profile" src="../public/img/Vector.png" alt="">
+                <div id="reg-modal" class="modal">
+                 <div class="modal-content">
+                     <span  id="close" class="close">&times;</span>
+                       <h2 class="modal_avtor">Регистрация</h2>
+                     <form action="registration.php" method="post">
+                       <input class="input__form" type="text" placeholder="Логин:" name="login"> <br>
+                     <input class="input__form" type="text" placeholder="Почта:" name="email"><br>
+                     <input class="input__form" type="password" placeholder="Пароль:" name="pass"><br>
+                     <input class="input__form" type="password" placeholder="Подтверждение пароля:" name="doppass"><br>
+                     <button class="modal__batton" type="submit" id="signIn">Регистрация</button>
+                     </form>
+                   <button id="open-login-modal" class="open-login-modal">Уже есть аккаунт? Войдите</button>
+                 </div>
+               </div>
+               
+               <div id="login-modal" class="modal">
+                 <div class="modal-content">
+                     <span id="closeTwo" class="close">&times;</span>
+                     <h2 class="modal_avtor">Авторизация</h2>
+                     <form action="avtoriz.php" method="post">
+                       <input class="input__form" type="text" placeholder="Логин:" name="log"> <br>
+                     <input class="input__form" type="password" placeholder="Пароль:" name="password"><br>
+                     <button class="modal__batton" id="signIn">Вход</button>
+                     </form>
+                   <button id="open-inReg-modal" class="open-inReg-modal">Нет аккаунта? Зарегестрируйтесь</button>
+                 </div>
+               </div>
+             </div>
+            <div class="two">
+                 <div class="two__href">
+                  <a class="two__href__link" href="../main/index.html">О мастерской</a>
+                    <a class="two__href__link" href="../katalog/index.html">Каталог</a>
+                    <a class="two__href__link" href="../garantii/index.html">Гарантии</a>
+                    <a class="two__href__link" href="../kakzakaz/index.html">Как заказать</a>
+                    <a class="two__href__link" href="../kontakti/index.html">Контакты</a>
+                 </div>
+                 <hr class="two__lineskont">
+            </div>
+        </header>
+    </div>
+    <div class="container">
+       <div class="kontakti">
+        <div class="kontakti__first">
+            <h1 class="kontakti__first__zagol">Контакты</h1>
+            <h2 class="kontakti__first__text">Связаться с нами можно следующими способами:</h2>
+            <div class="kontakti__first__info">
+                <p class="kontakti__first__info__text">Наш адрес:г. Лениногорск, ул.Абвгдежзийк, д. 1, кв. 2</p>
+                <p class="kontakti__first__info__text">График работы: Пн-Пт 10:00–18:00</p>
+            </div>
+            <div class="kontakti__first__tel">
+                <div class="kontakti__first__tel__info"> 
+                    <img class="kontakti__first__tel__info__img" src="../public/img/Phone.png" alt="">
+                    <p class="kontakti__first__tel__info__text">+79687824989</p>
+                </div>
+                <div class="kontakti__first__tel__info"> 
+                    <img class="kontakti__first__tel__info__img" src="../public/img/Telegram Appw.png" alt="">
+                    <p class="kontakti__first__tel__info__text">79687824989</p>
+                </div>
+                
+            </div>
+            <div class="kontakti__first__tel">
+                <div class="kontakti__first__tel__info"> 
+                    <img class="kontakti__first__tel__info__img" src="../public/img/WhatsAppw.png" alt="">
+                    <p class="kontakti__first__tel__info__text">+79687825969</p>
+                </div>
+                <div class="kontakti__first__tel__info"> 
+                    <img class="kontakti__first__tel__info__img" src="../public/img/Circled Envelope.png" alt="">
+                    <p class="kontakti__first__tel__info__text">J&R@mail.com</p>
+                </div>
+            </div>
+            <p class="kontakti__first__form">Если остались вопросы, пишите нам!</p>
+            <form action="sms.php" class="kontakti__first__formtext" method="POST">
+                <input class="kontakti__first__formtext__unput" type="text" placeholder="Имя" name="name"><br>
+                <input class="kontakti__first__formtext__unput" type="text" placeholder="Комментарий" name="comment"><br>
+                <input class="kontakti__first__formtext__text" type="submit" value="Отправить" name="submit">
+            </form>
+        </div>
+            <div class="kontakti__two">
+                <div class="kontakti__two__kard" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/?ll=37.556630%2C55.675915&source=serp_navig&utm_medium=mapframe&utm_source=maps&z=15.17" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты</a><iframe  class="kontakti__two__kard" src="https://yandex.ru/map-widget/v1/?ll=37.556630%2C55.675915&source=serp_navig&z=15.17" width="644" height="897" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            </div>
+       </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="foot">
+                <img class="foot__img" src="../public/img/Group 13.png" alt="">
+                <div class="foot__text">
+                 <p class="foot__text__el">г. Лениногорск, ул.Абвгдежзийк, д. 1, кв. 2</p>
+                 <p class="foot__text__el">Публичная оферта</p>
+                 <p class="foot__text__el">+79687824989</p>
+                </div>
+                <div class="foot__icons">
+                    <a href="#"><img class="foot__icons__img" src="../public/img/WhatsApp.png" alt=""></a>
+                    <a href="#"><img class="foot__icons__img"  src="../public/img/Group 8.png" alt=""></a>
+                    <a href="#"><img class="foot__icons__img"  src="../public/img/Telegram App.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="../modalwindow.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>jewels&radiance</title>
+</head>
+<body class="body" style="background-image: url(../public/img/Group\ 12.png);">
+    <div class="container">
+        <header>
+          <div class="first">
+            <div class="first__text">
+                <p>г. Лениногорск, ул.Абвгдежзийк, д. 1, кв. 2</p>
+                <p>+79687824989</p>
+            </div>
+            <a href="../main/index.html"><img class="first__logo" src="../public/img/image 35 (1).png" alt=""></a>
+            <img id="open-reg-modal" class="first__profile" src="../public/img/Vector.png" alt="">
+            <div id="reg-modal" class="modal">
+             <div class="modal-content">
+                 <span  id="close" class="close">&times;</span>
+                   <h2 class="modal_avtor">Регистрация</h2>
+                 <form action="registration.php" method="post">
+                   <input class="input__form" type="text" placeholder="Логин:" name="login"> <br>
+                 <input class="input__form" type="text" placeholder="Почта:" name="email"><br>
+                 <input class="input__form" type="password" placeholder="Пароль:" name="pass"><br>
+                 <input class="input__form" type="password" placeholder="Подтверждение пароля:" name="doppass"><br>
+                 <button class="modal__batton" type="submit" id="signIn">Регистрация</button>
+                 </form>
+               <button id="open-login-modal" class="open-login-modal">Уже есть аккаунт? Войдите</button>
+             </div>
+           </div>
+           
+           <div id="login-modal" class="modal">
+             <div class="modal-content">
+                 <span id="closeTwo" class="close">&times;</span>
+                 <h2 class="modal_avtor">Авторизация</h2>
+                 <form action="avtoriz.php" method="post">
+                   <input class="input__form" type="text" placeholder="Логин:" name="log"> <br>
+                 <input class="input__form" type="password" placeholder="Пароль:" name="password"><br>
+                 <button class="modal__batton" id="signIn">Вход</button>
+                 </form>
+               <button id="open-inReg-modal" class="open-inReg-modal">Нет аккаунта? Зарегестрируйтесь</button>
+             </div>
+           </div>
+         </div>
+        <div class="two">
+             <div class="two__href">
+              <a class="two__href__link" href="../main/index.html">О мастерской</a>
+                <a class="two__href__link" href="../katalog/index.html">Каталог</a>
+                <a class="two__href__link" href="../garantii/index.html">Гарантии</a>
+                <a class="two__href__link" href="../kakzakaz/index.html">Как заказать</a>
+                <a class="two__href__link" href="../kontakti/index.html">Контакты</a>
+             </div>
+             <hr class="two__lines">
+        </div>
+        </header>
+    </div>
+    <div class="container">
+        <div class="garantii">
+            <div class="garantii__text">
+                <h1 class="garantii__text__one" >Гаранитии</h1>
+                <p class="garantii__text__two">Наша ювелирная мастерская гарантирует высочайшее качество всех наших изделий. Мы тщательно отбираем самые лучшие материалы и работаем только с опытными мастерами, чтобы каждое украшение было выполнено наивысшем уровне. 
+
+                    Мы полностью уверены в качестве наших товаров, поэтому предоставляем гарантию на все изделия. Если вы обнаружите какие-либо дефекты или недостатки, мы обязуемся заменить изделие или вернуть вам полную стоимость покупки. 
+                    
+                    Мы ценим доверие наших клиентов и стремимся сделать все возможное, чтобы вы остались довольны покупкой у нас. Покупая украшения в нашем магазине, вы можете быть уверены в их безупречном качестве и надежной гарантии.</p>
+            </div>
+            <img class="garantii__img" src="../public/img/image 26.jpg" alt="">
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="foot">
+                <img class="foot__img" src="../public/img/Group 13.png" alt="">
+                <div class="foot__text">
+                 <p class="foot__text__el">г. Лениногорск, ул.Абвгдежзийк, д. 1, кв. 2</p>
+                 <p class="foot__text__el">Публичная оферта</p>
+                 <p class="foot__text__el">+79687824989</p>
+                </div>
+                <div class="foot__icons">
+                  <a href="#"><img class="foot__icons__img" src="../public/img/WhatsApp.png" alt=""></a>
+                  <a href="#"><img class="foot__icons__img"  src="../public/img/Group 8.png" alt=""></a>
+                  <a href=""><img class="foot__icons__img"  src="../public/img/Telegram App.png" alt=""></a>
+                </div>
+        </div>
+    </footer>
+    <script type="module" src="../modalwindow.js"></script>
+    <!-- if development -->
+<script type="module" src="http://127.0.0.1:5500/@vite/client"></script>
+<script type="module" src="http://127.0.0.1:5500/main.js"></script>
+<script type="module" src="../main/registration.php"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+@mixin head{
+    .first{
+        display: flex;
+        margin-top: 20px;
+        &__text{
+            font-family: "Futura PT";
+            font-weight: 300;
+            font-size: 24px;
+    color: #fff3f3;
+    margin-left: 249px;
+        }
+        &__logo{
+            width: 75px;
+            height: 65px;
+            margin-left: 270px;
+        }
+        &__profile{
+            width: 40px;
+            height: 54px;
+            margin-left: 580px;
+        }
+      }
+      .two{
+        height: 70px;
+        background: #e3ddd9;
+        margin-top: 25px;
+        &__href{
+            display: flex;
+            margin-left: 249px;
+            &__link{
+                font-family: "Futura PT";
+                font-weight: 300;
+                font-size: 36px;
+                color: #000;
+                text-decoration: none;
+                 margin-right: 155px;
+                 margin-top: 10px;
+            }
+        }
+    }
+}
+@mixin foot{
+    .foot{
+        display: flex;
+        height: 181px;
+        background: #e3ddd9;
+        &__img{
+            width: 102px;
+            height: 98px;
+            margin-left: 194px;
+            margin-top: 42px;
+        }
+        &__text{
+            margin-left: 441px;
+            font-family: "Futura PT";
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    margin-top: 42px;
+    &__el{
+        margin-bottom: 13px;
+    }
+        }
+        &__icons{
+            margin-left: 400px;
+            margin-top: 68px;
+            &__img{
+                margin-right: 28px;
+            }
+        }
+    }
+}

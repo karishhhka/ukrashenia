@@ -1,0 +1,2597 @@
+.foot {
+  display: flex;
+  height: 181px;
+  background: #e3ddd9;
+}
+.foot__img {
+  width: 102px;
+  height: 98px;
+  margin-left: 194px;
+  margin-top: 42px;
+}
+.foot__text {
+  margin-left: 441px;
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+  margin-top: 42px;
+}
+.foot__text__el {
+  margin-bottom: 13px;
+}
+.foot__icons {
+  margin-left: 400px;
+  margin-top: 68px;
+}
+.foot__icons__img {
+  margin-right: 28px;
+}
+
+.first {
+  display: flex;
+  margin-top: 20px;
+}
+.first__text {
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff3f3;
+  margin-left: 249px;
+}
+.first__logo {
+  width: 75px;
+  height: 65px;
+  margin-left: 270px;
+}
+.first__profile {
+  width: 40px;
+  height: 54px;
+  margin-left: 580px;
+}
+
+.two {
+  height: 70px;
+  background: #e3ddd9;
+  margin-top: 25px;
+}
+.two__href {
+  display: flex;
+  margin-left: 249px;
+}
+.two__href__link {
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 36px;
+  color: #000;
+  text-decoration: none;
+  margin-right: 155px;
+  margin-top: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  left: 0px;
+  top: 0px;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.body {
+  background-image: url("./public/img/Group 12.png");
+}
+
+.two__line {
+  border: 0, 5px solid #606060;
+  width: 207px;
+  margin-left: 249px;
+}
+
+.main {
+  display: flex;
+  margin-left: 184px;
+  margin-top: 150px;
+}
+.main__text {
+  width: 609px;
+  height: 709px;
+  margin-right: 212px;
+}
+.main__text__one {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 64px;
+  color: #fff;
+  margin-bottom: 129px;
+}
+.main__text__two {
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 32px;
+  text-align: justify;
+  color: #fff;
+}
+
+.masters {
+  margin-left: 184px;
+  margin-top: 150px;
+}
+.masters__text {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 64px;
+  margin-bottom: 100px;
+  color: #fff;
+}
+.masters__card {
+  display: flex;
+  padding-bottom: 50px;
+}
+.masters__card__masres {
+  width: 372px;
+  height: 927px;
+  margin-right: 225px;
+}
+.masters__card__masres__text {
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 32px;
+  text-align: justify;
+  color: #fff;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  background-color: #eaeaea;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.img-container {
+  position: relative;
+}
+
+.masters__card__masres_img:hover + #popup {
+  display: block;
+}
+
+.two__lines {
+  border: 0, 5px solid #606060;
+  width: 130px;
+  margin-left: 875px;
+}
+
+.garantii {
+  margin-left: 177px;
+  display: flex;
+  margin-top: 170px;
+  margin-bottom: 161px;
+}
+.garantii__text {
+  width: 677px;
+  height: 874px;
+}
+.garantii__text__one {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 80px;
+  text-align: justify;
+  color: #fff;
+  margin-bottom: 33px;
+}
+.garantii__text__two {
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 32px;
+  text-align: justify;
+  color: #fff;
+}
+.garantii__img {
+  width: 603px;
+  height: 874px;
+  margin-left: 230px;
+}
+
+.two__lineskont {
+  border: 0, 5px solid #606060;
+  width: 130px;
+  margin-left: 1498px;
+}
+
+.kontakti {
+  display: flex;
+}
+.kontakti__first {
+  margin-top: 104px;
+  margin-left: 210px;
+}
+.kontakti__first__zagol {
+  font-family: "Futura PT Book";
+  font-weight: 400;
+  font-size: 80px;
+  color: #fff;
+}
+.kontakti__first__text {
+  font-family: "Futura PT Book";
+  font-weight: 400;
+  font-size: 48px;
+  color: #fff;
+  width: 754px;
+  height: 124px;
+  margin-top: 43px;
+}
+.kontakti__first__info {
+  font-family: "Futura PT Light";
+  font-weight: 300;
+  font-size: 32px;
+  color: #fff;
+  margin-top: 43px;
+}
+.kontakti__first__info__text {
+  margin-bottom: 20px;
+}
+.kontakti__first__tel {
+  margin-top: 50px;
+  display: flex;
+  margin-bottom: 64px;
+}
+.kontakti__first__tel__info {
+  display: flex;
+}
+.kontakti__first__tel__info__img {
+  margin-right: 26px;
+  width: 45px;
+  height: 45px;
+}
+.kontakti__first__tel__info__text {
+  font-family: "Futura PT Light";
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+  margin-right: 64px;
+  margin-top: 5px;
+}
+.kontakti__first__form {
+  font-family: "Futura PT Book";
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.kontakti__first__formtext__unput {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  width: 468px;
+  height: 60px;
+  font-family: "Futura PT Light";
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.kontakti__first__formtext__text {
+  font-family: "Futura PT Light";
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-left: 100px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 10px 50px;
+  background-color: transparent;
+  margin-top: 80px;
+}
+.kontakti__two {
+  margin-top: 251px;
+  margin-left: 150px;
+}
+.kontakti__two__kard {
+  border-radius: 40px;
+  width: 644px;
+  height: 897px;
+  margin-bottom: 200px;
+}
+
+.two__lineskak {
+  border: 0, 5px solid #606060;
+  width: 185px;
+  margin-left: 1160px;
+}
+
+.kakzakaz {
+  margin-top: 100px;
+  margin-left: 200px;
+  display: flex;
+}
+.kakzakaz__first__zagol {
+  font-family: "Futura PT Book";
+  font-weight: 400;
+  font-size: 80px;
+  color: #fff;
+}
+.kakzakaz__first__podzag {
+  font-weight: 300;
+  font-family: "Futura PT Light";
+  font-size: 48px;
+  text-align: justify;
+  color: #fff;
+  width: 634px;
+  height: 124px;
+  margin-top: 54px;
+}
+.kakzakaz__first__adress {
+  font-weight: 300;
+  font-size: 40px;
+  color: #fff;
+  font-family: "Futura PT Light";
+  width: 459px;
+  height: 109px;
+  margin-top: 50px;
+}
+.kakzakaz__two {
+  margin-bottom: 146px;
+  margin-left: 230px;
+  margin-top: 160px;
+}
+.kakzakaz__two__text {
+  font-family: "Futura PT Light";
+  font-weight: 300;
+  font-size: 48px;
+  text-align: justify;
+  color: #fff;
+}
+.kakzakaz__two__form {
+  margin-top: 40px;
+}
+.kakzakaz__two__form__input {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  width: 544px;
+  height: 80px;
+  font-family: "Futura PT Light";
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.kakzakaz__two__form__button {
+  font-family: "Futura PT Light";
+  font-weight: 300;
+  font-size: 38px;
+  color: #fff;
+  margin-left: 120px;
+  width: 287px;
+  height: 72px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: transparent;
+  margin-top: 80px;
+}
+
+.lichkab {
+  margin-top: 130px;
+  margin-left: 237px;
+  display: flex;
+}
+.lichkab__two__zag {
+  font-family: "Futura PT Light";
+  font-weight: 300;
+  font-size: 70px;
+  color: #fff;
+  margin-bottom: 85px;
+}
+.lichkab__two__profile {
+  border: 1px solid #fff;
+  border-radius: 40px;
+  width: 482px;
+  height: 502px;
+  text-align: center;
+  margin-bottom: 199px;
+}
+.lichkab__two__profile__one {
+  font-family: "Futura PT Light";
+  font-weight: 300;
+  font-size: 48px;
+  color: #fff;
+  margin-top: 50px;
+}
+.lichkab__two__profile__two {
+  font-family: "Futura PT Light";
+  font-weight: 300;
+  font-size: 48px;
+  color: #fff;
+  margin-top: 22px;
+}
+.lichkab__two__profile__three {
+  font-family: "Futura PT Light";
+  font-weight: 300;
+  font-size: 40px;
+  color: #fff;
+  margin-top: 37px;
+}
+.lichkab__three {
+  margin-top: 100px;
+  margin-left: 319px;
+}
+.lichkab__three__text {
+  font-family: "Futura PT Light";
+  font-weight: 300;
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 113px;
+}
+.lichkab__three__info {
+  display: flex;
+  font-family: "Futura PT Light";
+  font-weight: 300;
+  font-size: 40px;
+  color: #fff;
+}
+.lichkab__three__info__text {
+  width: 332px;
+  height: 124px;
+  margin-right: 92px;
+  margin-bottom: 30px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 700px;
+  height: 800px;
+  background-image: url(./public/img/image\ 39.png);
+}
+
+.g-recaptcha {
+  margin-left: 135px;
+  margin-top: 40px;
+}
+
+.modal_avtor {
+  font-weight: 400;
+  font-size: 60px;
+  color: #fff;
+  font-family: "Futura PT";
+  padding-top: 60px;
+  text-align: center;
+}
+
+.close {
+  float: right;
+  font-size: 80px;
+}
+
+.modal__batton {
+  margin-top: 30px;
+  margin-left: 230px;
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 32px;
+  color: #000;
+  border-radius: 10px;
+  width: 235px;
+  height: 57px;
+  border: none;
+}
+
+.input__form {
+  border-radius: 10px;
+  width: 423px;
+  height: 50px;
+  font-family: "Futura PT";
+  font-size: 20px;
+  background: #e3ddd9;
+  margin-top: 30px;
+  margin-left: 130px;
+  border: none;
+  color: black;
+  margin-top: 30px;
+}
+
+.open-inReg-modal {
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 30px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin-top: 80px;
+  margin-left: 140px;
+}
+
+.open-login-modal {
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 30px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin-top: 50px;
+  margin-left: 180px;
+}
+
+.twos {
+  height: 70px;
+  margin-top: 25px;
+}
+
+.foots {
+  display: flex;
+  height: 181px;
+}
+
+.two__href__links {
+  color: #fff;
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 36px;
+  text-decoration: none;
+  margin-right: 155px;
+  margin-top: 10px;
+}
+
+.two__lineskatal {
+  margin-left: 610px;
+  width: 114px;
+  height: 0px;
+  background: #fffdfd;
+}
+
+.katalog {
+  margin-top: 51px;
+  margin-left: 178px;
+}
+.katalog__full {
+  display: flex;
+}
+.katalog__full__blok {
+  margin-right: 28px;
+}
+.katalog__full__blok__one {
+  width: 435px;
+  height: 574px;
+  background: #ededed;
+  margin-bottom: 28px;
+}
+.katalog__full__blok__one__img {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.katalog__full__blok__one__imgs {
+  margin-left: 50px;
+  margin-top: 80px;
+  margin-bottom: 134px;
+}
+.katalog__full__blok__one__imgss {
+  margin-left: 90px;
+  margin-top: 90px;
+  margin-bottom: 140px;
+}
+.katalog__full__blok__one__text {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #272727;
+  margin-left: 33px;
+  margin-bottom: 13px;
+  margin-top: 13px;
+}
+.katalog__full__blok__one__texts {
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 18px;
+  color: #757575;
+  margin-left: 33px;
+  margin-bottom: 12px;
+}
+.katalog__full__blok__one__textss {
+  font-style: italic;
+  margin-left: 33px;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #875818;
+}
+.katalog__full__center {
+  background-image: url(./img/Mask\ Group.png);
+  width: 653px;
+  height: 1175px;
+  margin-right: 28px;
+}
+.katalog__full__center__one {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 1030px;
+  margin-left: 32px;
+}
+.katalog__full__center__two {
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+  margin-left: 32px;
+  margin-top: 13px;
+}
+.katalog__full__center__three {
+  font-family: "Futura PT";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #efc58b;
+  margin-left: 32px;
+  margin-top: 12px;
+}
+.katalog__full__centers {
+  background-image: url(./img/image\ 22.png);
+  width: 653px;
+  height: 1175px;
+  margin-right: 28px;
+}
+.katalog__full__centers__one {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 1030px;
+  margin-left: 32px;
+}
+.katalog__full__centers__two {
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+  margin-left: 32px;
+  margin-top: 13px;
+}
+.katalog__full__centers__three {
+  font-family: "Futura PT";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #efc58b;
+  margin-left: 32px;
+  margin-top: 12px;
+}
+.katalog__full__cen {
+  display: flex;
+}
+.katalog__full__cen__big {
+  width: 716px;
+  height: 1190px;
+  background: #ededed;
+  margin-bottom: 28px;
+}
+.katalog__full__cen__big__img {
+  margin-top: 144px;
+  margin-left: 131px;
+  margin-bottom: 262px;
+}
+.katalog__full__cen__big__one {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #272727;
+  margin-left: 54px;
+  margin-bottom: 15px;
+}
+.katalog__full__cen__big__two {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 32px;
+  color: #757575;
+  margin-left: 54px;
+  margin-bottom: 15px;
+}
+.katalog__full__cen__big__three {
+  font-family: "Futura PT";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  color: #875818;
+  margin-left: 54px;
+}
+.katalog__full__cen__small__one {
+  width: 824px;
+  height: 574px;
+  margin-left: 38px;
+  background: #ededed;
+  margin-bottom: 35px;
+}
+.katalog__full__cen__small__one__img {
+  margin-left: 250px;
+  margin-top: 101px;
+  margin-bottom: 20px;
+}
+.katalog__full__cen__small__one__imgs {
+  margin-left: 202px;
+  margin-top: 72px;
+}
+.katalog__full__cen__small__one__text {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #272727;
+  margin-left: 54px;
+  margin-bottom: 15px;
+}
+.katalog__full__cen__small__one__texts {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
+  margin-left: 54px;
+  margin-bottom: 15px;
+}
+.katalog__full__cen__small__one__textss {
+  font-family: "Futura PT";
+  font-weight: 400;
+  font-size: 18px;
+  color: #875818;
+  margin-left: 54px;
+  margin-bottom: 15px;
+}
+
+.foot__text__els {
+  margin-bottom: 13px;
+  color: white;
+}
+
+@media (max-width: 1440px) and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .two__line {
+    width: 115px;
+    margin-left: 130px;
+  }
+  .main {
+    margin-left: 99px;
+    margin-top: 90px;
+  }
+  .main__text {
+    margin-right: 113px;
+    width: 324px;
+    height: 374px;
+  }
+  .main__text__one {
+    font-size: 34px;
+    margin-bottom: 68px;
+  }
+  .main__text__two {
+    font-weight: 300;
+    font-size: 17px;
+  }
+  .text {
+    width: 391px;
+    height: 378px;
+    margin-right: 113px;
+  }
+  .masters {
+    margin-left: 99px;
+    margin-top: 69px;
+  }
+  .masters__text {
+    font-size: 34px;
+    margin-bottom: 56px;
+  }
+  .masters__card__masres {
+    width: 196px;
+    height: 266px;
+    margin-right: 123px;
+  }
+  .masters__card__masres__text {
+    font-size: 17px;
+  }
+  .masters__card__masres_img {
+    width: 196px;
+    height: 266px;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .two__line {
+    width: 90px;
+    margin-left: 98px;
+  }
+  .main {
+    margin-left: 72px;
+    margin-top: 71px;
+  }
+  .main__text {
+    margin-right: 113px;
+    width: 243px;
+    height: 280px;
+  }
+  .main__text__one {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .main__text__two {
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .text {
+    width: 293px;
+    height: 283px;
+    margin-right: 84px;
+  }
+  .masters {
+    margin-left: 72px;
+    margin-top: 69px;
+  }
+  .masters__text {
+    font-size: 25px;
+    margin-bottom: 43px;
+  }
+  .masters__card__masres {
+    width: 196px;
+    height: 266px;
+    margin-right: 92px;
+  }
+  .masters__card__masres__text {
+    font-size: 17px;
+  }
+  .masters__card__masres_img {
+    width: 147px;
+    height: 200px;
+  }
+  .masters__card__masres__text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+  .two__line {
+    width: 45px;
+    margin-left: 50px;
+  }
+  .main {
+    margin-left: 72px;
+    margin-top: 71px;
+    display: inline;
+    align-items: center;
+  }
+  .main__text {
+    margin-left: 75px;
+    width: 243px;
+    height: 280px;
+    margin-top: 30px;
+  }
+  .main__text__one {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .main__text__two {
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .text {
+    margin-bottom: 40px;
+    margin-left: 40px;
+  }
+  .text {
+    width: 293px;
+    height: 283px;
+    margin-right: 84px;
+  }
+  .masters {
+    margin-left: 72px;
+    margin-top: 69px;
+  }
+  .masters__card {
+    display: inline;
+    margin-left: 20px;
+  }
+  .masters__text {
+    font-size: 25px;
+    margin-bottom: 14px;
+  }
+  .masters__card__masres {
+    width: 147px;
+    height: 266px;
+    margin-left: 50px;
+    margin-bottom: 120px;
+  }
+  .masters__card__masres__text {
+    font-size: 17px;
+  }
+  .masters__card__masres_img {
+    width: 147px;
+    height: 200px;
+  }
+  .masters__card__masres__text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1440px) and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .two__lines {
+    margin-left: 453px;
+    width: 80px;
+  }
+  .first__text {
+    font-size: 12.5px;
+    margin-left: 130px;
+  }
+  .first__logo {
+    width: 39px;
+    height: 38px;
+    margin-left: 152px;
+  }
+  .first__profile {
+    width: 22px;
+    height: 33px;
+    margin-left: 299px;
+  }
+  .two__href {
+    margin-left: 130px;
+  }
+  .two {
+    height: 43px;
+    width: 1024px;
+  }
+  .two__href__link {
+    font-size: 21px;
+    margin-right: 69px;
+  }
+  .garantii {
+    margin-left: 94px;
+    display: flex;
+    margin-top: 94px;
+  }
+  .garantii__text {
+    width: 361px;
+    height: 468px;
+  }
+  .garantii__text__one {
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+  .garantii__text__two {
+    font-size: 19px;
+  }
+  .garantii__img {
+    width: 321px;
+    height: 569px;
+    margin-left: 161px;
+  }
+  .foot {
+    height: 96px;
+    text-align: center;
+    margin-top: 190px;
+  }
+  .foot__img {
+    width: 54px;
+    height: 52px;
+    margin-left: 103px;
+    margin-top: 22px;
+  }
+  .foot__text {
+    margin-left: 235px;
+    margin-top: 22px;
+  }
+  .foot__text__el {
+    margin-bottom: 6px;
+    font-size: 10px;
+  }
+  .foot__icons {
+    margin-left: 200px;
+    margin-top: 36px;
+  }
+  .foot__icons__img {
+    width: 32px;
+    height: 32px;
+    margin-right: 14px;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .first__text {
+    font-size: 9px;
+    margin-left: 98px;
+  }
+  .first__logo {
+    width: 34px;
+    height: 30px;
+    margin-left: 113px;
+  }
+  .first__profile {
+    width: 17px;
+    height: 23px;
+    margin-left: 224px;
+  }
+  .two__href {
+    margin-left: 98px;
+  }
+  .two {
+    height: 43px;
+  }
+  .two__href__link {
+    font-size: 16px;
+    margin-right: 52px;
+  }
+  .garantii {
+    margin-left: 67px;
+    display: flex;
+    margin-top: 94px;
+  }
+  .garantii__text {
+    width: 270px;
+    height: 342px;
+  }
+  .garantii__text__one {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .garantii__text__two {
+    font-size: 12px;
+  }
+  .garantii__img {
+    width: 241px;
+    height: 427px;
+    margin-left: 121px;
+  }
+  .foot {
+    height: 72px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .foot__img {
+    width: 41px;
+    height: 38px;
+    margin-left: 83px;
+    margin-top: 16px;
+  }
+  .foot__text {
+    margin-left: 176px;
+    margin-top: 16px;
+  }
+  .foot__text__el {
+    margin-bottom: 3px;
+    font-size: 10px;
+  }
+  .foot__icons {
+    margin-left: 130px;
+    margin-top: 27px;
+  }
+  .foot__icons__img {
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+  }
+  .two__lines {
+    margin-left: 342px;
+    width: 60px;
+  }
+}
+@media (max-width: 767px) and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+  .two__lines {
+    margin-left: 180px;
+    width: 30px;
+  }
+  .first__text {
+    font-size: 7px;
+    margin-left: 47px;
+  }
+  .first__logo {
+    width: 34px;
+    height: 30px;
+    margin-left: 25px;
+  }
+  .first__profile {
+    width: 17px;
+    height: 23px;
+    margin-left: 69px;
+  }
+  .two__href {
+    margin-left: 50px;
+  }
+  .two {
+    height: 30px;
+  }
+  .two__href__link {
+    font-size: 8px;
+    margin-right: 30px;
+  }
+  .two__line {
+    width: 45px;
+    margin-left: 50px;
+  }
+  .garantii {
+    display: inline;
+  }
+  .garantii__text {
+    width: 270px;
+    height: 342px;
+    margin-left: 50px;
+  }
+  .garantii__text__one {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .garantii__text__two {
+    font-size: 12px;
+  }
+  .garantii__img {
+    width: 241px;
+    height: 427px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+  .foot {
+    height: 45px;
+    text-align: center;
+  }
+  .foot__img {
+    width: 20px;
+    height: 19px;
+    margin-left: 37px;
+    margin-top: 12px;
+  }
+  .foot__text {
+    margin-left: 86px;
+    margin-top: 10px;
+  }
+  .foot__text__el {
+    margin-bottom: 1px;
+    font-size: 5px;
+  }
+  .foot__icons {
+    margin-left: 67px;
+    margin-top: 12px;
+  }
+  .foot__icons__img {
+    width: 11px;
+    height: 11px;
+    margin-right: 2px;
+  }
+}
+@media (max-width: 1440px) and (min-width: 1024px) {
+  .kontakti__first__tel__info__text {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 1024px;
+  }
+  .two__lines {
+    margin-left: 453px;
+    width: 80px;
+  }
+  .first__text {
+    font-size: 12.5px;
+    margin-left: 130px;
+  }
+  .first__logo {
+    width: 39px;
+    height: 38px;
+    margin-left: 152px;
+  }
+  .first__profile {
+    width: 22px;
+    height: 33px;
+    margin-left: 299px;
+  }
+  .two__href {
+    margin-left: 130px;
+  }
+  .two {
+    height: 43px;
+    width: 1024px;
+  }
+  .two__href__link {
+    font-size: 21px;
+    margin-right: 69px;
+  }
+  .kontakti__first {
+    margin-left: 112px;
+    margin-top: 106px;
+  }
+  .kontakti__first__zagol {
+    font-size: 42px;
+  }
+  .kontakti__first__text {
+    font-size: 25px;
+    width: 402px;
+    height: 66px;
+    margin-top: 22px;
+  }
+  .kontakti__first__info {
+    font-size: 17px;
+  }
+  .kontakti__first__info__text {
+    margin-bottom: 10px;
+    margin-right: 34px;
+  }
+  .kontakti__first__tel {
+    margin-bottom: 34px;
+  }
+  .kontakti__first__tel__info__img {
+    margin-right: 16px;
+    width: 25px;
+    height: 25px;
+  }
+  .kontakti__first__form {
+    font-size: 21px;
+  }
+  .kontakti__first__formtext__unput {
+    width: 249px;
+    font-size: 17px;
+    height: 40px;
+  }
+  .kontakti__first__formtext__text {
+    font-size: 12px;
+    width: 110px;
+    height: 26px;
+    margin-top: 50px;
+    margin-left: 35px;
+    padding: 5px 20px;
+  }
+  .kontakti__two__kard {
+    width: 343px;
+    height: 478px;
+    margin-bottom: 10px;
+  }
+  .kontakti__two {
+    margin-top: 140px;
+    margin-left: 80px;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .first__text {
+    font-size: 9px;
+    margin-left: 98px;
+  }
+  .first__logo {
+    width: 34px;
+    height: 30px;
+    margin-left: 113px;
+  }
+  .first__profile {
+    width: 17px;
+    height: 23px;
+    margin-left: 224px;
+  }
+  .two__href {
+    margin-left: 98px;
+  }
+  .two {
+    height: 43px;
+  }
+  .two__href__link {
+    font-size: 16px;
+    margin-right: 52px;
+  }
+  .two__lineskont {
+    margin-left: 586px;
+    width: 60px;
+  }
+  .kontakti__first {
+    margin-left: 84px;
+    margin-top: 50px;
+  }
+  .kontakti__first__zagol {
+    font-size: 32px;
+  }
+  .kontakti__first__text {
+    font-size: 19px;
+    width: 306px;
+    height: 50px;
+    margin-top: 10px;
+  }
+  .kontakti__first__info {
+    font-size: 9px;
+  }
+  .kontakti__first__info__text {
+    margin-bottom: 10px;
+    margin-right: 34px;
+  }
+  .kontakti__first__tel {
+    margin-bottom: 14px;
+  }
+  .kontakti__first__tel__info__img {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+  }
+  .kontakti__first__form {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .kontakti__first__formtext__unput {
+    width: 187px;
+    font-size: 12px;
+    height: 30px;
+  }
+  .kontakti__first__formtext__text {
+    font-size: 12px;
+    width: 110px;
+    height: 26px;
+    margin-top: 30px;
+    margin-left: 35px;
+    padding: 5px 20px;
+  }
+  .kontakti__two__kard {
+    width: 257px;
+    height: 358px;
+    margin-bottom: 10px;
+  }
+  .kontakti__two {
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 767px) and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+  .two__lines {
+    margin-left: 180px;
+    width: 30px;
+  }
+  .first__text {
+    font-size: 7px;
+    margin-left: 47px;
+  }
+  .first__logo {
+    width: 34px;
+    height: 30px;
+    margin-left: 25px;
+  }
+  .first__profile {
+    width: 17px;
+    height: 23px;
+    margin-left: 69px;
+  }
+  .two__href {
+    margin-left: 50px;
+  }
+  .two {
+    height: 30px;
+  }
+  .two__href__link {
+    font-size: 8px;
+    margin-right: 30px;
+  }
+  .two__lineskont {
+    margin-left: 310px;
+    width: 30px;
+  }
+  .kontakti {
+    display: inline;
+  }
+  .kontakti__first {
+    margin-left: 84px;
+    margin-top: 50px;
+  }
+  .kontakti__first__zagol {
+    font-size: 32px;
+  }
+  .kontakti__first__text {
+    font-size: 19px;
+    width: 206px;
+    height: 50px;
+    margin-top: 10px;
+  }
+  .kontakti__first__info {
+    font-size: 9px;
+    margin-top: 20px;
+  }
+  .kontakti__first__info__text {
+    margin-bottom: 10px;
+    margin-right: 34px;
+    font-size: 12px;
+  }
+  .kontakti__first__tel {
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .kontakti__first__tel__info__img {
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+  }
+  .kontakti__first__tel__info__text {
+    font-size: 9px;
+    margin-left: 5px;
+  }
+  .kontakti__first__form {
+    font-size: 16px;
+    margin-bottom: 1px;
+  }
+  .kontakti__first__formtext__unput {
+    width: 187px;
+    font-size: 12px;
+    height: 30px;
+  }
+  .kontakti__first__formtext__text {
+    font-size: 12px;
+    width: 110px;
+    height: 26px;
+    margin-top: 30px;
+    margin-left: 35px;
+    padding: 5px 20px;
+  }
+  .kontakti__two__kard {
+    width: 257px;
+    height: 358px;
+    margin-bottom: 30px;
+  }
+  .kontakti__two {
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+  .foot {
+    height: 45px;
+    text-align: center;
+  }
+  .foot__img {
+    width: 20px;
+    height: 19px;
+    margin-left: 37px;
+    margin-top: 12px;
+  }
+  .foot__text {
+    margin-left: 86px;
+    margin-top: 10px;
+  }
+  .foot__text__el {
+    margin-bottom: 1px;
+    font-size: 5px;
+  }
+  .foot__icons {
+    margin-left: 67px;
+    margin-top: 12px;
+  }
+  .foot__icons__img {
+    width: 11px;
+    height: 11px;
+    margin-right: 2px;
+  }
+}
+@media (max-width: 1440px) and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .first__text {
+    font-size: 12.5px;
+    margin-left: 130px;
+  }
+  .first__logo {
+    width: 39px;
+    height: 38px;
+    margin-left: 152px;
+  }
+  .first__profile {
+    width: 22px;
+    height: 33px;
+    margin-left: 299px;
+  }
+  .two__href {
+    margin-left: 130px;
+  }
+  .two {
+    height: 43px;
+    width: 1024px;
+  }
+  .two__href__link {
+    font-size: 21px;
+    margin-right: 69px;
+  }
+  .lichkab {
+    margin-top: 84px;
+    margin-left: 120px;
+  }
+  .lichkab__two__zag {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  .lichkab__two__profile {
+    width: 257px;
+    height: 267px;
+    margin-bottom: 20px;
+  }
+  .lichkab__two__profile__one {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .lichkab__two__profile__two {
+    font-size: 25px;
+  }
+  .lichkab__two__profile__three {
+    font-size: 21px;
+  }
+  .img {
+    width: 80px;
+    height: 78px;
+  }
+  .lichkab__three {
+    margin-top: 80px;
+    margin-left: 150px;
+  }
+  .lichkab__three__text {
+    font-size: 34px;
+    margin-bottom: 50px;
+  }
+  .lichkab__three__info {
+    font-size: 25px;
+  }
+  .lichkab__three__info__text {
+    margin-right: 60px;
+    margin-bottom: 10px;
+    width: 176px;
+    height: 66px;
+  }
+  .two__lineskak {
+    width: 108px;
+    margin-left: 595px;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .first__text {
+    font-size: 9px;
+    margin-left: 98px;
+  }
+  .first__logo {
+    width: 34px;
+    height: 30px;
+    margin-left: 113px;
+  }
+  .first__profile {
+    width: 17px;
+    height: 23px;
+    margin-left: 224px;
+  }
+  .two__href {
+    margin-left: 98px;
+  }
+  .two {
+    height: 43px;
+  }
+  .two__href__link {
+    font-size: 16px;
+    margin-right: 52px;
+  }
+  .lichkab {
+    margin-top: 54px;
+    margin-left: 100px;
+  }
+  .lichkab__two__zag {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .lichkab__two__profile {
+    width: 192px;
+    height: 200px;
+    margin-bottom: 5px;
+  }
+  .lichkab__two__profile__one {
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  .lichkab__two__profile__two {
+    font-size: 19px;
+  }
+  .lichkab__two__profile__three {
+    font-size: 16px;
+  }
+  .img {
+    width: 60px;
+    height: 58px;
+  }
+  .lichkab__three {
+    margin-top: 60px;
+    margin-left: 100px;
+  }
+  .lichkab__three__text {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .lichkab__three__info {
+    font-size: 19px;
+  }
+  .lichkab__three__info__text {
+    margin-right: 40px;
+    margin-bottom: 5px;
+    width: 132px;
+    height: 50px;
+  }
+  .two__lineskak {
+    width: 108px;
+    margin-left: 595px;
+  }
+}
+@media (max-width: 767px) and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+  .two__lines {
+    margin-left: 180px;
+    width: 30px;
+  }
+  .first__text {
+    font-size: 7px;
+    margin-left: 47px;
+  }
+  .first__logo {
+    width: 34px;
+    height: 30px;
+    margin-left: 25px;
+  }
+  .first__profile {
+    width: 17px;
+    height: 23px;
+    margin-left: 69px;
+  }
+  .two__href {
+    margin-left: 50px;
+  }
+  .two {
+    height: 30px;
+  }
+  .two__href__link {
+    font-size: 8px;
+    margin-right: 30px;
+  }
+  .two__lineskont {
+    margin-left: 310px;
+    width: 30px;
+  }
+  .lichkab {
+    display: inline;
+    margin-top: 54px;
+    margin-left: 100px;
+  }
+  .lichkab__two {
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+  .lichkab__two__zag {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .lichkab__two__profile {
+    width: 192px;
+    height: 200px;
+    margin-bottom: 5px;
+  }
+  .lichkab__two__profile__one {
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  .lichkab__two__profile__two {
+    font-size: 19px;
+    margin-top: 5px;
+  }
+  .lichkab__two__profile__three {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .img {
+    width: 60px;
+    height: 58px;
+    margin-top: 10px;
+  }
+  .lichkab__three {
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+  .lichkab__three__text {
+    font-size: 19px;
+    margin-bottom: 30px;
+  }
+  .lichkab__three__info {
+    font-size: 12px;
+  }
+  .lichkab__three__info__text {
+    margin-right: 40px;
+    margin-bottom: 5px;
+    width: 132px;
+    height: 50px;
+  }
+  .two__lineskak {
+    width: 108px;
+    margin-left: 595px;
+  }
+  .foot {
+    height: 45px;
+    text-align: center;
+  }
+  .foot__img {
+    width: 20px;
+    height: 19px;
+    margin-left: 37px;
+    margin-top: 12px;
+  }
+  .foot__text {
+    margin-left: 86px;
+    margin-top: 10px;
+  }
+  .foot__text__el {
+    margin-bottom: 1px;
+    font-size: 5px;
+  }
+  .foot__icons {
+    margin-left: 67px;
+    margin-top: 12px;
+  }
+  .foot__icons__img {
+    width: 11px;
+    height: 11px;
+    margin-right: 2px;
+  }
+}
+@media (max-width: 1440px) and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .first__text {
+    font-size: 12.5px;
+    margin-left: 130px;
+  }
+  .first__logo {
+    width: 39px;
+    height: 38px;
+    margin-left: 152px;
+  }
+  .first__profile {
+    width: 22px;
+    height: 33px;
+    margin-left: 299px;
+  }
+  .two__href {
+    margin-left: 130px;
+  }
+  .two {
+    height: 43px;
+    width: 1024px;
+  }
+  .two__href__link {
+    font-size: 21px;
+    margin-right: 69px;
+  }
+  .kakzakaz {
+    margin-left: 112px;
+    margin-top: 99px;
+  }
+  .kakzakaz__first__zagol {
+    font-size: 42px;
+  }
+  .kakzakaz__first__podzag {
+    font-size: 25px;
+    width: 338px;
+    height: 66px;
+    margin-top: 25px;
+  }
+  .kakzakaz__first__adress {
+    font-size: 20px;
+    margin-top: 25px;
+    width: 224px;
+    height: 60px;
+  }
+  .kakzakaz__two {
+    margin-bottom: 10px;
+    margin-left: 123px;
+    margin-top: 85px;
+  }
+  .kakzakaz__two__text {
+    font-size: 25px;
+  }
+  .kakzakaz__two__form {
+    margin-top: 20px;
+  }
+  .kakzakaz__two__form__input {
+    width: 290px;
+    height: 50px;
+    font-size: 17px;
+    margin-bottom: 7px;
+  }
+  .kakzakaz__two__form__button {
+    width: 153px;
+    height: 38px;
+    margin-top: 50px;
+    font-size: 21px;
+    margin-left: 62px;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .first__text {
+    font-size: 9px;
+    margin-left: 98px;
+  }
+  .first__logo {
+    width: 34px;
+    height: 30px;
+    margin-left: 113px;
+  }
+  .first__profile {
+    width: 17px;
+    height: 23px;
+    margin-left: 224px;
+  }
+  .two__href {
+    margin-left: 98px;
+  }
+  .two {
+    height: 43px;
+  }
+  .two__href__link {
+    font-size: 16px;
+    margin-right: 52px;
+  }
+  .kakzakaz {
+    margin-left: 84px;
+    margin-top: 60px;
+  }
+  .kakzakaz__first__zagol {
+    font-size: 32px;
+  }
+  .kakzakaz__first__podzag {
+    font-size: 19px;
+    width: 253px;
+    height: 50px;
+    margin-top: 15px;
+  }
+  .kakzakaz__first__adress {
+    font-size: 16px;
+    margin-top: 25px;
+    width: 183px;
+    height: 42px;
+  }
+  .kakzakaz__two {
+    margin-bottom: 10px;
+    margin-left: 92px;
+    margin-top: 70px;
+  }
+  .kakzakaz__two__text {
+    font-size: 19px;
+  }
+  .kakzakaz__two__form {
+    margin-top: 10px;
+  }
+  .kakzakaz__two__form__input {
+    width: 217px;
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .kakzakaz__two__form__button {
+    margin-top: 30px;
+    font-size: 16px;
+    margin-left: 42px;
+    border-radius: 8px;
+    width: 114px;
+    height: 28px;
+  }
+}
+@media (max-width: 767px) and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+  .two__lines {
+    margin-left: 180px;
+    width: 30px;
+  }
+  .first__text {
+    font-size: 7px;
+    margin-left: 47px;
+  }
+  .first__logo {
+    width: 34px;
+    height: 30px;
+    margin-left: 25px;
+  }
+  .first__profile {
+    width: 17px;
+    height: 23px;
+    margin-left: 69px;
+  }
+  .two__href {
+    margin-left: 50px;
+  }
+  .two {
+    height: 30px;
+  }
+  .two__href__link {
+    font-size: 8px;
+    margin-right: 30px;
+  }
+  .two__lineskont {
+    margin-left: 310px;
+    width: 30px;
+  }
+  .kakzakaz__first {
+    margin-left: 72px;
+    margin-top: 20px;
+  }
+  .kakzakaz {
+    margin-left: 84px;
+    margin-top: 60px;
+    display: inline;
+  }
+  .kakzakaz__first__zagol {
+    font-size: 32px;
+  }
+  .kakzakaz__first__podzag {
+    font-size: 19px;
+    width: 253px;
+    height: 50px;
+    margin-top: 15px;
+  }
+  .kakzakaz__first__adress {
+    font-size: 16px;
+    margin-top: 25px;
+    width: 183px;
+    height: 42px;
+  }
+  .kakzakaz__two {
+    margin-bottom: 10px;
+    margin-left: 72px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .kakzakaz__two__text {
+    font-size: 19px;
+  }
+  .kakzakaz__two__form {
+    margin-top: 10px;
+  }
+  .kakzakaz__two__form__input {
+    width: 217px;
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .kakzakaz__two__form__button {
+    margin-top: 30px;
+    font-size: 16px;
+    margin-left: 42px;
+    border-radius: 8px;
+    width: 114px;
+    height: 28px;
+  }
+  .two__lineskak {
+    width: 108px;
+    margin-left: 595px;
+  }
+  .foot {
+    height: 45px;
+    text-align: center;
+  }
+  .foot__img {
+    width: 20px;
+    height: 19px;
+    margin-left: 37px;
+    margin-top: 12px;
+  }
+  .foot__text {
+    margin-left: 86px;
+    margin-top: 10px;
+  }
+  .foot__text__el {
+    margin-bottom: 1px;
+    font-size: 5px;
+  }
+  .foot__icons {
+    margin-left: 67px;
+    margin-top: 12px;
+  }
+  .foot__icons__img {
+    width: 11px;
+    height: 11px;
+    margin-right: 2px;
+  }
+}
+@media (max-width: 1440px) and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .first__text {
+    font-size: 12.5px;
+    margin-left: 130px;
+  }
+  .first__logo {
+    width: 39px;
+    height: 38px;
+    margin-left: 152px;
+  }
+  .first__profile {
+    width: 22px;
+    height: 33px;
+    margin-left: 299px;
+  }
+  .two__href {
+    margin-left: 130px;
+  }
+  .twos {
+    height: 43px;
+    width: 1024px;
+  }
+  .two__href__links {
+    font-size: 21px;
+    margin-right: 69px;
+  }
+  .two__lineskatal {
+    margin-left: 320px;
+    width: 65px;
+  }
+  .katalog {
+    margin-left: 80px;
+  }
+  .katalog__full__blok__one__img {
+    width: 139px;
+    height: 170px;
+  }
+  .katalog__full__blok__one__imgs {
+    width: 139px;
+    height: 106px;
+    margin-bottom: 10px;
+  }
+  .katalog__full__blok__one__text {
+    font-size: 8px;
+  }
+  .katalog__full__blok__one__texts {
+    font-size: 9px;
+  }
+  .katalog__full__blok__one__textss {
+    font-size: 9px;
+  }
+  .katalog__full__blok__one {
+    width: 232px;
+    height: 306px;
+  }
+  .katalog__full__center {
+    width: 348px;
+    height: 640px;
+    overflow: visible;
+  }
+  .katalog__full__centers {
+    width: 340px;
+    height: 640px;
+    overflow: visible;
+  }
+  .katalog__full__center__one {
+    font-size: 8px;
+  }
+  .katalog__full__center__two {
+    font-size: 9px;
+  }
+  .katalog__full__center__three {
+    font-size: 9px;
+  }
+  .katalog__full__blok__one__imgss {
+    width: 138px;
+    height: 96px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+  }
+  .katalog__full__cen__big {
+    width: 381px;
+    height: 634px;
+  }
+  .katalog__full__cen__small__one {
+    width: 445px;
+    height: 306px;
+    margin-bottom: 20px;
+  }
+  .katalog__full__cen__big__img {
+    width: 247px;
+    height: 264px;
+    margin-left: 69px;
+    margin-top: 76px;
+    margin-bottom: 150px;
+  }
+  .katalog__full__center__one {
+    margin-top: 550px;
+  }
+  .katalog__full__cen__small__one__img {
+    width: 182px;
+    height: 148px;
+    margin-left: 125px;
+    margin-top: 40px;
+  }
+  .katalog__full__cen__small__one__imgs {
+    width: 224px;
+    height: 173px;
+    margin-left: 100px;
+    margin-top: 40px;
+  }
+  .katalog__full__cen__small__one__text {
+    font-size: 8px;
+  }
+  .katalog__full__cen__small__one__texts {
+    font-size: 9px;
+  }
+  .katalog__full__cen__small__one__textss {
+    font-size: 9px;
+  }
+  .katalog__full__cen__big__one {
+    font-size: 21px;
+  }
+  .katalog__full__cen__big__two {
+    font-size: 17px;
+  }
+  .katalog__full__cen__big__three {
+    font-size: 12px;
+  }
+  .foots {
+    height: 96px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .foot__img {
+    width: 54px;
+    height: 52px;
+    margin-left: 103px;
+    margin-top: 22px;
+  }
+  .foot__text {
+    margin-left: 235px;
+    margin-top: 22px;
+  }
+  .foot__text__els {
+    margin-bottom: 6px;
+    font-size: 10px;
+  }
+  .foot__icons {
+    margin-left: 200px;
+    margin-top: 36px;
+  }
+  .foot__icons__img {
+    width: 32px;
+    height: 32px;
+    margin-right: 14px;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .first__text {
+    font-size: 9px;
+    margin-left: 98px;
+  }
+  .first__logo {
+    width: 34px;
+    height: 30px;
+    margin-left: 113px;
+  }
+  .first__profile {
+    width: 17px;
+    height: 23px;
+    margin-left: 224px;
+  }
+  .two__href {
+    margin-left: 98px;
+  }
+  .twos {
+    height: 43px;
+  }
+  .two__href__links {
+    font-size: 16px;
+    margin-right: 52px;
+  }
+  .two__lineskatal {
+    margin-left: 240px;
+    width: 50px;
+  }
+  .katalog {
+    margin-left: 50px;
+    margin-top: 15px;
+  }
+  .katalog__full__blok__one__img {
+    width: 104px;
+    height: 127px;
+    margin-left: 30px;
+  }
+  .katalog__full__blok__one__imgs {
+    width: 127px;
+    height: 80px;
+    margin-bottom: 7px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .katalog__full__blok__one__text {
+    font-size: 8px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  .katalog__full__blok__one__texts {
+    font-size: 9px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  .katalog__full__blok__one__textss {
+    font-size: 9px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .katalog__full__blok__one {
+    width: 174px;
+    height: 229px;
+  }
+  .katalog__full__center {
+    width: 261px;
+    height: 490px;
+    overflow: visible;
+  }
+  .katalog__full__centers {
+    width: 260px;
+    height: 485px;
+    overflow: visible;
+  }
+  .katalog__full__center__one {
+    font-size: 8px;
+  }
+  .katalog__full__center__two {
+    font-size: 9px;
+  }
+  .katalog__full__center__three {
+    font-size: 9px;
+  }
+  .katalog__full__blok__one__imgss {
+    width: 103px;
+    height: 72px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+  }
+  .katalog__full__cen__big {
+    width: 286px;
+    height: 476px;
+  }
+  .katalog__full__cen__small__one {
+    width: 340px;
+    height: 229px;
+    margin-bottom: 20px;
+  }
+  .katalog__full__cen__big__img {
+    width: 185px;
+    height: 198px;
+    margin-left: 49px;
+    margin-top: 56px;
+    margin-bottom: 120px;
+  }
+  .katalog__full__cen__big__one {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  .katalog__full__center__one {
+    margin-top: 420px;
+    margin-left: 15px;
+  }
+  .katalog__full__cen__big__two {
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+  }
+  .katalog__full__cen__big__three {
+    font-size: 9px;
+    margin-left: 15px;
+  }
+  .katalog__full__center__two {
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .katalog__full__center__three {
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .katalog__full__cen__small__one__img {
+    width: 136px;
+    height: 111px;
+    margin-left: 105px;
+    margin-top: 20px;
+  }
+  .katalog__full__cen__small__one__imgs {
+    width: 168px;
+    height: 130px;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+  .katalog__full__cen__small__one__text {
+    font-size: 8px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+  }
+  .katalog__full__cen__small__one__texts {
+    font-size: 9px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+  }
+  .katalog__full__cen__small__one__textss {
+    font-size: 9px;
+    margin-left: 25px;
+  }
+  .foots {
+    height: 72px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .foot__img {
+    width: 41px;
+    height: 38px;
+    margin-left: 83px;
+    margin-top: 16px;
+  }
+  .foot__text {
+    margin-left: 176px;
+    margin-top: 16px;
+  }
+  .foot__text__els {
+    margin-bottom: 3px;
+    font-size: 10px;
+  }
+  .foot__icons {
+    margin-left: 130px;
+    margin-top: 27px;
+  }
+  .foot__icons__img {
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+  }
+}
+@media (max-width: 767px) and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+  .two__lineskatal {
+    margin-left: 124px;
+    width: 27px;
+  }
+  .first__text {
+    font-size: 7px;
+    margin-left: 47px;
+  }
+  .first__logo {
+    width: 34px;
+    height: 30px;
+    margin-left: 25px;
+  }
+  .first__profile {
+    width: 17px;
+    height: 23px;
+    margin-left: 69px;
+  }
+  .two__href {
+    margin-left: 50px;
+  }
+  .twos {
+    height: 30px;
+  }
+  .two__href__links {
+    font-size: 8px;
+    margin-right: 30px;
+  }
+  .katalog {
+    margin-left: 50px;
+    margin-top: 15px;
+  }
+  .katalog__full {
+    display: inline;
+  }
+  .katalog__full__blok__one__img {
+    width: 104px;
+    height: 127px;
+    margin-left: 30px;
+  }
+  .katalog__full__blok__one__imgs {
+    width: 127px;
+    height: 80px;
+    margin-bottom: 7px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .katalog__full__blok__one__text {
+    font-size: 8px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  .katalog__full__blok__one__texts {
+    font-size: 9px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  .katalog__full__blok__one__textss {
+    font-size: 9px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .katalog__full__blok__one {
+    width: 174px;
+    height: 229px;
+    margin-left: 50px;
+  }
+  .katalog__full__cen {
+    display: inline;
+  }
+  .katalog__full__center {
+    width: 261px;
+    height: 490px;
+    overflow: visible;
+    margin-bottom: 20px;
+  }
+  .katalog__full__centers {
+    width: 260px;
+    height: 485px;
+    overflow: visible;
+    margin-bottom: 20px;
+  }
+  .katalog__full__center__one {
+    font-size: 8px;
+    margin-top: 10px;
+    padding-top: 420px;
+  }
+  .katalog__full__center__two {
+    font-size: 9px;
+  }
+  .katalog__full__center__three {
+    font-size: 9px;
+  }
+  .katalog__full__blok__one__imgss {
+    width: 103px;
+    height: 72px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+  }
+  .katalog__full__cen__big {
+    width: 286px;
+    height: 476px;
+  }
+  .katalog__full__cen__small__one {
+    width: 286px;
+    height: 229px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .katalog__full__cen__big__img {
+    width: 185px;
+    height: 198px;
+    margin-left: 49px;
+    margin-top: 56px;
+    margin-bottom: 20px;
+  }
+  .katalog__full__cen__big__one {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  .katalog__full__center__one {
+    margin-left: 15px;
+  }
+  .katalog__full__cen__big__two {
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+  }
+  .katalog__full__cen__big__three {
+    font-size: 9px;
+    margin-left: 15px;
+  }
+  .katalog__full__center__two {
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .katalog__full__center__three {
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .katalog__full__cen__small__one__img {
+    width: 136px;
+    height: 111px;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+  .katalog__full__cen__small__one__imgs {
+    width: 168px;
+    height: 130px;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  .katalog__full__cen__small__one__text {
+    font-size: 8px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+  }
+  .katalog__full__cen__small__one__texts {
+    font-size: 9px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+  }
+  .katalog__full__cen__small__one__textss {
+    font-size: 9px;
+    margin-left: 25px;
+  }
+  .foots {
+    height: 45px;
+    text-align: center;
+  }
+  .foot__img {
+    width: 20px;
+    height: 19px;
+    margin-left: 37px;
+    margin-top: 12px;
+  }
+  .foot__text {
+    margin-left: 86px;
+    margin-top: 10px;
+  }
+  .foot__text__els {
+    margin-bottom: 1px;
+    font-size: 5px;
+  }
+  .foot__icons {
+    margin-left: 67px;
+    margin-top: 12px;
+  }
+  .foot__icons__img {
+    width: 11px;
+    height: 11px;
+    margin-right: 2px;
+  }
+}/*# sourceMappingURL=style.css.map */
